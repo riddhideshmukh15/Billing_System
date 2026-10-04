@@ -79,4 +79,3 @@ Item added successfully!
 
 **Riddhi Deshmukh**
 
-This project was created as a beginner-friendly Python project to practice programming concepts and build practical applications.
