@@ -1,82 +1,82 @@
-# Billing System 🧾
+# Billing System
 
-A simple **Billing System** built using Python. This project allows users to add items, calculate item totals, and generate a final bill.
+A simple **Python Billing System** that allows users to add items, generate bills, calculate discounts and GST, remove items, and select a payment method.
 
-## ✨ Features
+## Features
 
-* ➕ Add items to the bill
-* 🔢 Enter item quantity
-* 💰 Enter item price
-* 🧮 Calculate total price
-* 🧾 View the complete bill
-* 💵 Calculate the grand total
-* ❌ Exit the program
+* Add items to the bill
+* Enter item quantity and price
+* Calculate item totals automatically
+* View complete bill
+* Calculate subtotal
+* Apply discount
+* Calculate 18% GST
+* Calculate final amount
+* Remove individual items
+* Clear the complete bill
+* Select payment method:
 
-## 🛠️ Technologies Used
+  * Cash
+  * UPI
+  * Card
+* Display payment confirmation
+* Customer name support
+
+## Technologies Used
 
 * Python
+* Lists
+* Dictionaries
+* Loops
+* Conditional statements
+* `enumerate()`
+* `pop()`
+* `clear()`
 
-## ▶️ How to Run
+## How to Run
 
 1. Install Python on your computer.
 2. Download or clone this repository.
-3. Open the project folder in Command Prompt.
+3. Open the project folder in Command Prompt or VS Code.
 4. Run:
 
 ```bash
-python billing_system.py
+python Billing-System.py
 ```
 
-## 📌 Example
+## Example
 
 ```text
 ===== BILLING SYSTEM =====
 
 1. Add Item
 2. View Bill
-3. Exit
+3. Remove Item
+4. Clear Bill
+5. Exit
 
 Enter your choice: 1
+
 Enter item name: Pen
 Enter quantity: 5
 Enter price: 10
 
 Item added successfully!
-
-Enter your choice: 2
-
-========== BILL ==========
-Pen | Qty: 5 | Price: ₹ 10.0 | Total: ₹ 50.0
---------------------------
-Grand Total: ₹ 50.0
-==========================
 ```
 
-## 📚 What I Learned
+## Future Improvements
 
-While creating this project, I practiced:
-
-* Lists
-* Dictionaries
-* Nested dictionaries
-* `while` loops
-* `for` loops
-* `if-elif-else`
-* User input
-* Basic mathematical calculations
-
-## 🚀 Future Improvements
-
-* Add GST/tax calculation
-* Add discount option
-* Add customer details
-* Generate bill number
+* Generate a unique bill number
 * Add date and time
 * Save bills to a file
-* Create a printable receipt
+* Print bills as receipts
+* Add product search
+* Add stock management
+* Add customer phone number
+* Add multiple GST rates
 
-## 👩‍💻 Author
+## Author
 
 **Riddhi Deshmukh**
 
-
+This project was created as a beginner-friendly Python project to practice programming concepts and build practical applications.
